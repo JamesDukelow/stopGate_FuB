@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">VT_Infeed</Object>
+    <Object Type="Package">Outfeed</Object>
+    <Object Type="Package">Merge</Object>
+    <Object Type="Package">Evac</Object>
+  </Objects>
+</Package>

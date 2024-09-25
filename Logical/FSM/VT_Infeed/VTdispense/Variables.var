@@ -1,0 +1,25 @@
+VAR
+	(*downstreamFull : ARRAY[0..2] OF BOOL;
+	state : INT;
+	laneIdx : INT;
+	isDispensing : BOOL;
+	isDispensingTrig : R_TRIG;
+	startTrig : R_TRIG;
+	resetLaneCountTrig:  ARRAY[0..2] OF R_TRIG;
+	resetLaneCount : ARRAY[0..2] OF BOOL;
+	start : BOOL;
+	readyForDispense : BOOL;
+	error : BOOL;
+	errorResetTrig : R_TRIG;
+	errorReset : BOOL;
+	wrongLane : BOOL;  if BR requested lane x, and VT dispensed in lane y or z 
+	pauseDispense : BOOL;  in case all lanes are full 
+	delay : TON;
+	
+	laneCount : ARRAY[0..2] OF INT;
+	
+	
+	maxLaneCount : INT := 5;
+	
+i : INT; *)
+END_VAR

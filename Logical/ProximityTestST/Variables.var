@@ -1,0 +1,4 @@
+VAR
+	sensorST : onOffDebounce;
+inputSignal : BOOL;
+END_VAR

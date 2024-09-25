@@ -1,0 +1,7 @@
+VAR
+	inputSignal : BOOL;
+	sensor : onOffDebounce;
+	onTimeDelay : TIME;
+	offTimeDelay : TIME;
+	detected : BOOL;
+END_VAR

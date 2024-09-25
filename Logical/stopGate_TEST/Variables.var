@@ -1,0 +1,30 @@
+VAR
+	partPresent : BOOL;
+	gate : stopGate;
+	openClose : BOOL;
+	EMGC : BOOL;
+	gateSensor : BOOL;
+	coil : BOOL;
+	GATE_FAULT : BOOL;
+	GATE_OPEN : BOOL;
+	gate1 : stopGate;
+	gateOpen : BOOL;
+	bladeStopZone0 : ARRAY[0..2] OF stopGate;
+	bsZ0partPresent : BOOL;
+	gateOpenSensor : BOOL;
+	openTime : TIME;
+	closeTimeout : TIME;
+	openTimeout : TIME;
+	hasOpenSensor : BOOL;
+	downstreamReady : BOOL;
+	gateFaultReset : BOOL;
+	gateCloseSensor : BOOL;
+	sGateOpenFault : BOOL;
+	sGateOpen : BOOL;
+	sGateCloseFault : BOOL;
+	gateClose : BOOL;
+	state : INT;
+	sGateClosed : BOOL;
+	stopGate_0 : stopGate;
+	bladeStopZone1 : stopGate;
+END_VAR
